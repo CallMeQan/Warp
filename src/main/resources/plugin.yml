@@ -1,0 +1,11 @@
+name: WarpWeapon
+version: '${version}'
+main: com.github.callmeqan.warp.WarpWeapon
+api-version: '1.20'
+
+commands:
+  warpweapon:
+    description: "Spawn Warp weapon"
+    usage: "/warpweapon"
+    aliases:
+      - warp

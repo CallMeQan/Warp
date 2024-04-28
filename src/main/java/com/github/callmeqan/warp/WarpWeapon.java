@@ -18,6 +18,7 @@ public final class WarpWeapon extends JavaPlugin {
         WarpItem.init();
         Objects.requireNonNull(getCommand("warpweapon")).setExecutor(new WarpCommand());
         getServer().getPluginManager().registerEvents(new WarpEvent(), this);
+        getServer().getPluginManager().registerEvents(new FallDamageEvent(), this);
     }
 
     @Override
